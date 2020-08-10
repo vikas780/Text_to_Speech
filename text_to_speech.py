@@ -2,20 +2,7 @@ from gtts import gTTS
 from tkinter import *
 import playsound
 import os
-# without using file 
-# mytext = "Hello my name is vikas "
-# Using file
-"""
-myfile = open('test.txt', 'r')
-mytext = myfile.read()
 
-language = 'en'
-
-output = gTTS(text=mytext , lang=language , slow=False)
-output.save("output.mp3")
-myfile.close()
-os.system("start output.mp3")
-"""
 txt =""
 txt2 = ""
 language_list = ["English","Hindi","Gujarati", "Marathi", "Japanese"]
