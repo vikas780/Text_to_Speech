@@ -2,7 +2,7 @@ from gtts import gTTS
 from tkinter import *
 import playsound
 import os
-# without using file ok
+# without using file 
 # mytext = "Hello my name is vikas "
 # Using file
 """
