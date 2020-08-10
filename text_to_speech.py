@@ -5,8 +5,8 @@ import os
 
 txt =""
 txt2 = ""
-language_list = ["English","Hindi","Gujarati", "Marathi", "Japanese"]
-language_code = ["en","hi","af","gd","ja","fr-ca","ve","tr"]
+
+language_code = ["en","hi","af","ja","fr-ca","ko","pl","tr"]
 def clicked():
     myob = gTTS(text=txt.get(), lang=variable1.get(),slow=False)
     myob.save("Speech.mp3")
